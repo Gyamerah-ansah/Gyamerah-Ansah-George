@@ -7,7 +7,7 @@ function TakeForm(event) {
     let formdata = new FormData(form)
   let getData = Object.fromEntries(formdata.entries())
   console.log(getData)
-  alert("login")
+  alert("FORMS SUBMITTED")
 }
 
 send.onclick = TakeForm
